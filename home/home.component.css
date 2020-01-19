@@ -1,0 +1,50 @@
+body {
+  box-sizing: border-box;
+  color: #Ffff;
+  font-size: 80%;
+  padding: 1em;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.page-header {
+  background-color: lightcoral;
+}
+
+.content-navigation {
+  background-color: lightblue;
+}
+
+.content-sidebar {
+  background-color: lightgreen;
+}
+
+.page-footer {
+  background-color: lightseagreen;
+}
+
+main {
+  height: 100%;
+  display: flex;
+}
+
+article {
+  background-color: maroon;
+  flex: 2 2 12em;
+}
+
+nav,
+aside {
+  flex: 1;
+}
+
+.page-content {
+  height: 100%;
+  display: flex;
+}
+
+.content-article {
+  background-color: limegreen;
+}
